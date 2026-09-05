@@ -12,3 +12,5 @@ router.patch("/:id/payment",auth,updatePaymentStatus)
 router.delete("/:id", auth, deleteBooking)
 
 module.exports=router
+
+    
